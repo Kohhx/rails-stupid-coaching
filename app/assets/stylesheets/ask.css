@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  padding:15px;
+}
+
+.main-container {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#input{
+  height:30px;
+  width:20%;
+}
+
+#ask{
+  height:30px;
+  width:50px;
+}
+
+.back{
+  text-decoration: none;
+  color:blue;
+}

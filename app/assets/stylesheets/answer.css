@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  padding:15px;
+}
+
+.main-container {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.ans-container,
+.ques-container {
+  border-left: 6px solid grey;
+  padding: 10px;
+  margin-bottom:20px;
+}
+
+.ans-container{
+  background-color:rgb(241, 241, 208);
+}
+
+h3 {
+  margin: 5px;
+  color:#767676;
+}

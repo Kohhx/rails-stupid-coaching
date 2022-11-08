@@ -1,0 +1,13 @@
+<%= stylesheet_link_tag "answer.css" %>
+<h1>Stupid Coaching</h1>
+<div class="main-container">
+  <div class="ques-container">
+    <h3><%= @question %></h3>
+    <h3>-You</h3>
+  </div>
+  <div class="ans-container">
+    <h3><%= @answer %></h3>
+    <h3>-Your coach</h3>
+  </div>
+  <%= link_to 'Ask another question', 'ask', class:"back"%>
+</div>
